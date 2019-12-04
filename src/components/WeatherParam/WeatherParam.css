@@ -1,0 +1,16 @@
+.param {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: lightblue;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.name {
+  margin: 0 20px;
+}
+
+.value {
+  margin: 0 20px;
+
+}

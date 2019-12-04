@@ -1,0 +1,14 @@
+.forecasts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin: 20px 0;
+}
+
+.favorites{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.favorites-header{
+}

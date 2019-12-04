@@ -1,0 +1,20 @@
+.weather {
+  display: grid;
+  grid-template-rows: 2fr repeat(5, 1fr);
+  border: 2px solid dodgerblue;
+}
+
+.weather > .weather-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header > .city-name {
+  font-size: 2em;
+  font-display: bold;
+}
+
+.header > .temperature {
+  font-size: 1.5em;
+}

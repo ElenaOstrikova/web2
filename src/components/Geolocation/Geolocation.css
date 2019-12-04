@@ -1,0 +1,13 @@
+.geolocation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.geolocation > .button {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 3em;
+}
