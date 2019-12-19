@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Weather /> render should has <Loader /> 1`] = `
+<div
+  className="loader"
+>
+  <img
+    alt="loader"
+    height="128"
+    src="/loading.svg"
+    width="128"
+  />
+  <p>
+    Data is loading...
+  </p>
+</div>
+`;
+
+exports[`<Weather /> render should has <Loader /> even if onDelete given 1`] = `
+<div
+  className="loader"
+>
+  <img
+    alt="loader"
+    height="128"
+    src="/loading.svg"
+    width="128"
+  />
+  <p>
+    Data is loading...
+  </p>
+</div>
+`;
+
+exports[`<Weather /> render should has forecast and delete button 1`] = `
+<div
+  className="weather"
+>
+  <div
+    className="weather-header"
+  >
+    <div
+      className="city-name"
+    >
+      Moscow
+    </div>
+    <div
+      className="temperature"
+    >
+      -4
+       ℃
+    </div>
+    <img
+      alt="Weather icon"
+      src="https://openweathermap.org/img/wn/icon_code.png"
+    />
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Wind
+    </div>
+    <div
+      className="value"
+    >
+      10 m/s
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Cloudness
+    </div>
+    <div
+      className="value"
+    >
+      nice to swim
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Pressure
+    </div>
+    <div
+      className="value"
+    >
+      234 hPa
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Humidity
+    </div>
+    <div
+      className="value"
+    >
+      99%
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Coords
+    </div>
+    <div
+      className="value"
+    >
+      40, 40
+    </div>
+  </div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    X
+  </button>
+</div>
+`;
+
+exports[`<Weather /> render should has forecast and no delete button 1`] = `
+<div
+  className="weather"
+>
+  <div
+    className="weather-header"
+  >
+    <div
+      className="city-name"
+    >
+      Moscow
+    </div>
+    <div
+      className="temperature"
+    >
+      -4
+       ℃
+    </div>
+    <img
+      alt="Weather icon"
+      src="https://openweathermap.org/img/wn/icon_code.png"
+    />
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Wind
+    </div>
+    <div
+      className="value"
+    >
+      10 m/s
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Cloudness
+    </div>
+    <div
+      className="value"
+    >
+      nice to swim
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Pressure
+    </div>
+    <div
+      className="value"
+    >
+      234 hPa
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Humidity
+    </div>
+    <div
+      className="value"
+    >
+      99%
+    </div>
+  </div>
+  <div
+    className="param"
+  >
+    <div
+      className="name"
+    >
+      Coords
+    </div>
+    <div
+      className="value"
+    >
+      40, 40
+    </div>
+  </div>
+</div>
+`;

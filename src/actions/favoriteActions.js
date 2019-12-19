@@ -38,7 +38,8 @@ export function getWeatherByCityName(cityName) {
             }
           });
       },
-      error => dispatch(getFavError(error, cityName)))
+      error => {
+        dispatch(getFavError(error.message, cityName))})
   }
 }
 

@@ -29,7 +29,9 @@ export function getWeatherByCoords(coords) {
                             }
                         });
                 },
-                error => dispatch(getGeoError(error)))
+                error => {
+                debugger
+                dispatch(getGeoError(error.message))})
     }
 }
 

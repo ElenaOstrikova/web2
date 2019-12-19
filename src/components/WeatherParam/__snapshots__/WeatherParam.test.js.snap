@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherParam /> render should has name 1`] = `
+<div
+  className="param"
+>
+  <div
+    className="name"
+  >
+    Temperature
+  </div>
+  <div
+    className="value"
+  />
+</div>
+`;
+
+exports[`<WeatherParam /> render should has name and value 1`] = `
+<div
+  className="param"
+>
+  <div
+    className="name"
+  >
+    Temperature
+  </div>
+  <div
+    className="value"
+  >
+    25
+  </div>
+</div>
+`;
+
+exports[`<WeatherParam /> render should has nothing 1`] = `
+<div
+  className="param"
+>
+  <div
+    className="name"
+  />
+  <div
+    className="value"
+  />
+</div>
+`;
+
+exports[`<WeatherParam /> render should has value 1`] = `
+<div
+  className="param"
+>
+  <div
+    className="name"
+  />
+  <div
+    className="value"
+  >
+    25
+  </div>
+</div>
+`;

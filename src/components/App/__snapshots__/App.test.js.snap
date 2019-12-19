@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> render should has <Favorites /> and <Geolocation /> with empty state 1`] = `
+<div>
+  <div
+    className="geolocation"
+  >
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Get location
+    </button>
+  </div>
+  <div
+    className="favorites"
+  >
+    <h1
+      className="favorites-header"
+    >
+      Favorites
+    </h1>
+    <form
+      className="add-favorite"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        name="cityName"
+        placeholder="City name"
+        required={true}
+        type="text"
+      />
+      <input
+        className="button"
+        type="submit"
+        value="Add to favorite"
+      />
+    </form>
+    <div
+      className="forecasts"
+    />
+  </div>
+</div>
+`;

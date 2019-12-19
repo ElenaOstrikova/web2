@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddFavorite /> render should has form with text input and button 1`] = `
+<form
+  className="add-favorite"
+  onSubmit={[Function]}
+>
+  <input
+    className="input"
+    name="cityName"
+    placeholder="City name"
+    required={true}
+    type="text"
+  />
+  <input
+    className="button"
+    type="submit"
+    value="Add to favorite"
+  />
+</form>
+`;
