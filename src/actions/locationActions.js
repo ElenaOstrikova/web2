@@ -13,15 +13,14 @@ export function setGeolocation(coords) {
     }
 }
 
-export function getWeatherByCoords(coords) {
-    const url = `${API_URL}?lat=${coords.lat}&lon=${coords.lon}${API_PARAMETERS}`;
+export function fetchWeatherByCoords(coords) {
+    const url = `${API_URL}/weather/coordinates?lat=${coords.lat}&lon=${coords.lon}`;
 
     return function(dispatch) {
         fetch(url)
             .then(response => {
                     response.json()
                         .then(json => {
-                            console.log(response, json);
                             if (!response.ok) {
                                 dispatch(getGeoError(json.message));
                             } else {
@@ -29,9 +28,7 @@ export function getWeatherByCoords(coords) {
                             }
                         });
                 },
-                error => {
-                debugger
-                dispatch(getGeoError(error.message))})
+                error => dispatch(getGeoError(error.message)));
     }
 }
 
